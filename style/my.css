@@ -274,12 +274,14 @@ color: #D1A954
 }
 .swiper {
   width: 90%;
-  height: 400px;
+  height: 300px;
 }
 .swiper-slide{
 display: flex;
-height: 130px !important;
+flex-direction: column;
+height: 300px !important;
 justify-content: center;
+align-items: center;
 }
 .swiper-pagination{
 	 	bottom: 0px !important;
